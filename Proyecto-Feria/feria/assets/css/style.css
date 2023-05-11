@@ -1,0 +1,78 @@
+a{text-decoration: none;
+
+}
+li{
+    background-color: rgb(245, 232, 159);
+    display: inline-block;
+    padding: 10px;
+    margin:0 2rem 0 2rem;
+    color: rgb(244, 235, 235);
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align:center;
+}
+
+li:hover {
+   background-color: #e9e062;
+   cursor:pointer;
+
+}
+body{
+    background-color:#cfe6cf;
+    margin: 0; 
+   }
+h1{text-align: center;}
+ 
+
+
+ .principal{
+    background-image: url(./assets/imagenes/IMG-20180104-WA0000.jpg);
+    background-position: center;
+}
+ .comentario{
+    border:1px solid black;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    background-color:rgb(206, 230, 222);
+    left:35%;
+    position:fixed }
+    
+    
+    header, main, footer {
+      border-radius: 1rem ;
+      font-family: 'Roboto', sans-serif;
+    }
+    header{
+      background-color: rgb(223, 189, 196);
+      height: 10%;
+    }
+    main{
+      background-color: rgb(29, 100, 207);
+      height: 70%;
+    }
+    footer{
+      background-color: rgb(223, 189, 196);
+      height: 20%;
+    }  
+ .formulario
+ .carrousel{
+    margin: 1rem;
+    border : var(--border)
+
+    }
+   
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+    
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }   
